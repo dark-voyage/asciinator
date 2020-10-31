@@ -136,3 +136,4 @@ config.ini
 
 # Sessions
 main.session
+main.session-journal
