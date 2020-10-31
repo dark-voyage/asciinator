@@ -125,5 +125,14 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# IDEA files
+.idea
+
 # Pyre type checker
 .pyre/
+
+# Configuration
+config.ini
+
+# Sessions
+main.session
