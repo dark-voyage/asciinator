@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 
 
-@Client.on_message(filters.command("type", prefixes="$") & filters.me)
+@Client.on_message(filters.command("type", prefixes=".") & filters.me)
 async def typer(client, message):
     original_text = message.text.split("$type ", maxsplit=1)[1]
     text = original_text
