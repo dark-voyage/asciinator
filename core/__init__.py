@@ -1,11 +1,10 @@
 try:
     from os import environ
-    from actions import msg, importer
     from pyrogram import Client, filters
 except ImportError as err:
-    importer("import")
+    pass
 except Exception as err:
-    importer("import")
+    pass
 
 app = Client(
     api_id=environ.get("API_ID"),
