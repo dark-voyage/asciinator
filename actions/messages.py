@@ -1,3 +1,3 @@
 msg = {
-    "boot": ""
+    "boot": "Failed while boostrapping application"
 }
