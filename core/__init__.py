@@ -19,4 +19,5 @@ app = Client(
     parse_mode="html",
     hide_password=True,
     plugins=dict(root="plugins")
+
 )
