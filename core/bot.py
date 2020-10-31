@@ -1,9 +1,9 @@
 try:
-    from os import environ
     from pyrogram import Client, filters
 except ImportError as Error:
     print("Error occurred while importing:", Error)
 
+plugins = dict(root="plugins")
 
 app = Client(
     session_name="main",
@@ -15,6 +15,7 @@ app = Client(
     password="Mogulkahn2001",
     parse_mode="html",
     config_file="./config.ini",
-    hide_password=True
+    hide_password=True,
+    plugins=plugins
 )
 
