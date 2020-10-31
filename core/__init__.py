@@ -9,7 +9,7 @@ except Exception as err:
 app = Client(
     api_id=environ.get("API_ID"),
     api_hash=environ.get("API_HASH"),
-    session_name="main",
+    session_name=environ.get("SESSION"),
     app_version="1.0.3",
     device_model="Geolinda V3.1.3 (Sara Edition)",
     system_version="OSS Linux by Genemator",
