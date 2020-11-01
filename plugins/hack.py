@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 
 
-@Client.on_message(filters.command("hack", prefixes=".") & filters.me)
+@Client.on_message(filters.command("h", prefixes=".") & filters.me)
 async def hack(client, message):
     loader = 0
 

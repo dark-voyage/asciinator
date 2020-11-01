@@ -18,6 +18,6 @@ app = Client(
     password=environ.get("PASSWORD"),
     parse_mode="html",
     hide_password=True,
-    plugins=dict(root="plugins")
-
+    plugins=dict(root="plugins"),
+    workdir="C:\\Users\\Genemator"
 )
